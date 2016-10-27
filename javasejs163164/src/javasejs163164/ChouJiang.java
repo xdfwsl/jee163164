@@ -17,12 +17,12 @@ public class ChouJiang {
 		
 		
 		int renShu=40;//班级人数
-		//int i=0;
+		int i=0;
 		Scanner input=new Scanner(System.in);
-		System.out.print("行了吗?");
-		while (!input.next().equals("y")) {
+	
+		while (i<5) {
 			System.out.println((int)(Math.random()*renShu+1));
-			System.out.print("行了吗?");
+			i++;
 			
 		}
 		
